@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
-
+ 
 app = FastAPI(
     title="Chat API",
     version="0.1.0",
